@@ -1,43 +1,64 @@
-# Klondike Solitaire
+# Klondike Solitaire 🃏
 
-## Overview
-Klondike Solitaire is a classic card game that challenges players to build four foundation piles, each representing a suit, in ascending order from Ace to King. The game is played with a standard 52-card deck and involves strategic moves to uncover and organize cards.
+## 🚀 Overview
+A fully interactive, browser-based implementation of the classic Klondike Solitaire card game. Built with vanilla JavaScript and modern CSS, this project delivers a smooth, drag-and-drop gameplay experience with undo functionality and win detection.  Perfect for learning game logic, DOM manipulation, and object-oriented JavaScript.
 
-## Project Structure
-The project is organized into the following directories and files:
+**🎮 [Play Live Demo](https://ahmedikram05.github.io/Klondike-Solitaire/)**
 
+## 🧠 Tech Stack
+- **Frontend**: HTML5, CSS3, JavaScript (ES6 Modules)
+- **Architecture**: Object-Oriented Programming (OOP)
+- **Features**: Drag-and-drop API, Event-driven programming
+- **Deployment**: GitHub Pages
+
+## 📊 Features
+- ✅ **Classic Klondike Rules**: Standard 7-tableau layout with stock and foundation piles
+- 🎯 **Drag-and-Drop Interface**:  Intuitive card movement with visual feedback
+- ↩️ **Undo Functionality**: Revert moves to correct mistakes
+- 🎉 **Win Detection**: Automatic game-over modal when you complete the game
+- 🔄 **New Game**:  Shuffle and restart anytime
+- 📱 **Responsive Design**: Clean, card-game aesthetic with proper spacing
+- 🎨 **Visual Feedback**: Color-coded suits (red/black) with proper card symbols (♥♠♣♦)
+
+## 🎮 How to Play
+1. **Objective**: Move all cards to the four foundation piles (one per suit) in ascending order from Ace to King
+2. **Stock Pile**: Click to draw cards from the deck
+3. **Tableau**:  Build down in alternating colors (red-black-red)
+4. **Foundations**: Build up by suit starting with Ace
+5. **Empty Tableau Spaces**: Only Kings can fill empty columns
+6. **Controls**:
+   - 🆕 **New Game** - Shuffle and start fresh
+   - ⏮️ **Undo** - Reverse your last move
+
+## 📁 Project Structure
 ```
-Solitaire
-├── css
-│   └── styles.css          # Contains the CSS styles for the game
-├── js
-│   ├── card.js             # Exports the Card class for card representation
-│   ├── solitaire.js         # Exports the Solitaire class for game logic
-│   └── main.js             # Entry point for the application
-├── index.html              # Main HTML document for the game
-└── README.md               # Documentation for the project
+klondike-solitaire/
+├── css/
+│   └── styles.css          # Game styling and card design
+├── js/
+│   ├── card.js             # Card class (rank, suit, flip logic)
+│   ├── solitaire.js        # Game engine (rules, validation, state)
+│   └── main.js             # Entry point and initialization
+├── index.html              # Main game interface
+└── README.md               # You are here! 
 ```
 
-## Setup Instructions
-1. **Clone the Repository**: 
+## 🛠️ How to Run
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/AhmedIkram05/klondike-solitaire.git
+   cd klondike-solitaire
    ```
-   git clone <repository-url>
-   cd Solitaire
+
+2. **Open in browser**:
+   ```bash
+   # Option 1: Direct file open
+   open index.html  # macOS
+   start index.html # Windows
+   
+   # Option 2: Local server (recommended)
+   python -m http.server 8000
+   # Then visit http://localhost:8000
    ```
 
-2. **Open the Project**: Open `index.html` in a web browser to start playing the game.
-
-## Game Rules
-- The objective is to move all cards to the foundation piles.
-- Cards can be moved between tableau piles, the waste pile, and the foundation piles according to specific rules:
-  - Only Kings can be placed in empty tableau spaces.
-  - Cards must be placed in alternating colors and in descending order in tableau piles.
-  - Foundation piles must be built in ascending order by suit.
-
-## How to Play
-1. Click on the stock pile to draw cards.
-2. Move cards between tableau piles by dragging and dropping.
-3. Build foundation piles by placing cards in the correct order and suit.
-4. Use the "New Game" button to start a fresh game or "Undo" to revert the last move.
-
-Enjoy playing Klondike Solitaire!
+3. **Start playing! ** 🎮
