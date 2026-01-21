@@ -4,7 +4,7 @@
 
 A fully interactive, browser-based implementation of the classic Klondike Solitaire card game. Built with vanilla JavaScript and modern CSS, this project delivers a smooth, drag-and-drop gameplay experience with undo functionality and win detection.  Perfect for learning game logic, DOM manipulation, and object-oriented JavaScript.
 
-**🎮 [Play Live Demo](https://ahmedikram05.github.io/Klondike-Solitaire/)**
+**🎮 [Play Live Demo](https://ahmedikram05.github.io/klondike-solitaire/)**
 
 ## 🧠 Tech Stack
 
