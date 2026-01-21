@@ -6,6 +6,8 @@ A fully interactive, browser-based implementation of the classic Klondike Solita
 
 **🎮 [Play Live Demo](https://ahmedikram05.github.io/klondike-solitaire/)**
 
+![Klondike Solitaire gameplay](images/demo.png)
+
 ## 🧠 Tech Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6 Modules)
