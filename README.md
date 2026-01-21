@@ -60,12 +60,8 @@ klondike-solitaire/
 2. **Open in browser**:
 
    ```bash
-   # Option 1: Direct file open
-   open index.html  # macOS
-   start index.html # Windows
-   
-   # Option 2: Local server (recommended)
-   python -m http.server 8000
+   # Start Local server
+   python3 -m http.server 8000
    # Then visit http://localhost:8000
    ```
 
